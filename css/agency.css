@@ -65,6 +65,7 @@ h6 {
 .bg-dark{
   background-color: #000000;
   color: white;
+
 }
 .bg-dark p.light {
   font-weight: normal;
@@ -267,6 +268,8 @@ header {
   text-align: center;
   color: white;
 }
+
+}
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -321,6 +324,11 @@ section.signup {
   text-align: center;
   color: white;
 }
+
+section.signup h4 {
+  padding-bottom: 30px;
+}
+
 
 section p {
   font-size: 16px;
@@ -667,6 +675,8 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
+  background-color: black;
+  color: white;
   padding: 25px 0;
   text-align: center;
 }
