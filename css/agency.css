@@ -597,10 +597,12 @@ section h3.section-subheading {
   }
 }
 .team-member {
+  font-size: 50%;
   text-align: center;
   margin-bottom: 50px;
 }
 .team-member img {
+  width: 250px;
   margin: 0 auto;
   border: 7px solid white;
 }
