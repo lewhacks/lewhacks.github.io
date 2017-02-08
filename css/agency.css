@@ -308,10 +308,6 @@ section {
   padding: 100px 0;
 }
 
-section#about {
-  background-color: #0d0c0d;
-  color: white;
-}
 
 section#schedule {
   background-color: #0F0F0F;
@@ -420,14 +416,13 @@ footer ul.quicklinks {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
 }
-ul.social-buttons {
-  margin-bottom: 0;
-}
+
 ul.social-buttons li a {
+  padding-top: 15px;
   display: block;
   background-color: #222222;
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 70px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
