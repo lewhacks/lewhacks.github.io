@@ -16,6 +16,10 @@ ul.schedule {
   font-weight: lighter;
 }
 
+form {
+  color: black;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
