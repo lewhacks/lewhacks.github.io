@@ -380,12 +380,16 @@
                 <div class="col-md-4">
                   <h1 class="section-heading">Contact Us!</h1>
                   <hr class="small">
-
                   <h4> Send us a message and we'll reply as quickly as possible! </h4>
-                  <form method="POST" action="http://formspree.io/lewhacks@flhs.us">
-                    <input name="email" placeholder="Your email" type="email">
-                    <textarea name="message" placeholder="Your message"></textarea><br>
-                    <button type="submit">Send</button>
+                  <br>
+                  <form class="form-group" method="POST" action="http://formspree.io/lewhacks@flhs.us">
+                    <div class="form-group">
+                      <label for="email">Your Email:</label>
+                      <input class="form-control" name="email" placeholder="Your email" type="email">
+                      <label for="message">Your Message:</label>
+                      <textarea class="form-control" name="message" placeholder="Your message"></textarea><br>
+                      <button class="btn btn-xl" type="submit">Send</button>
+                    </div>
                   </form>
                   <h3 class="section-subheading">Look for us through one of our various social media accounts!</h3>
                     <br>
