@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+html {
+  background-color: black;
+}
+
 hr {
   margin: auto;
   padding: auto;
@@ -14,6 +18,12 @@ ul.schedule {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: lighter;
+}
+
+
+h1.schedule {
+  font-size: 75px;
+
 }
 
 form {
@@ -336,7 +346,6 @@ section.signup {
 section.signup h4 {
   padding-bottom: 30px;
 }
-
 
 section p {
   font-size: 16px;
